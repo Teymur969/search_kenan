@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search</title>
+</head>
+<style>
+    #q, #b {
+        margin: 0
+    }
+    #q {
+        padding: 5px;
+        font-size: 2em;
+        line-height: 30px
+    }
+    #b {
+        /* image replacement */
+        text-indent: -99999px;
+        width: 30px;
+        height: 30px;
+        display: block;
+        background: gray url(button.png) 0 0 no-repeat;
+
+        /* placing next to input using float or absolute positioning omitted ... */
+    }
+
+</style>
+</head>
+<body>
+
+
+
+<form action="https://www.facebook.com/kenanbek.me/?fref=ts" method="get">
+    <input type="text" name="search" id="q" placeholder="Axtar.." />
+    <input type="submit" id="b" value="Search" />
+</form>
+</body>
+</html>
